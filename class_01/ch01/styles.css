@@ -1,0 +1,14 @@
+body {
+    background-color: chartreuse;
+}
+
+p {
+    font-size: larger;
+    color: black;
+    font-weight: 600;  /* 600 기준 bold*/
+    font-size: 500%;
+    border: 10px double #ddd;
+    padding: 60px;
+    margin: 100px;
+    text-align: center;
+}
