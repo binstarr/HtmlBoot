@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="url">link text</a>
+    <a href="https://www.naver.com">네이버</a>
+    <!-- 방문하지 않은 링크는 밑줄과 파란색
+         방문한 링크는 밑줄과 보라색
+         활성 링크는 밑줄과 빨간색으로 표시 됩니다.
+         
+        _self : 기본 클릭한 것과 동일한 창/탭에서 문서를 엽니다.
+        _blank: 새 창이나 탭에서 문서를 엽니다.
+        _parent:부모 프레임에서 문서를 엽니다.
+        _top : 창의 전체 본문에서 엽니다.
+
+        절대 URL과 상대 URL
+        : https://www.naver.com
+    -->
+    <div>
+        <br>
+        <a href="https://www.naver.com"  target="_self">네이버로 이동하기</a>
+        <a href="https://www.naver.com"  target="_blank">네이버로 이동하기 _blank</a>
+        <a href="https://www.naver.com"  target="_parent">네이버로 이동하기 _parent</a>
+        <a href="https://www.naver.com"  target="_top">네이버로 이동하기 _top</a>
+    </div>
+    
+    <!-- 상대 URL -->
+    <div><a href="h_02.html">h_02 페이지로 이동하기</a></div>
+    <div><a href="../html_02.html">h_02 페이지로 이동하기</a></div>
+
+    <a href="h_05.html">
+        <img src="../images.png" alt=""/>
+    </a>
+    <br>
+    <button onclick="document.location ='../html_04.html'">HTML 버튼이야</button>
+
+    <a href="mailto:tjdqls2s@naver.com">send Email</a>
+</body>
+</html>
