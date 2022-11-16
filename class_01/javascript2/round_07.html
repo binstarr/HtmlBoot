@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // confirm 함수는 매개변수로 문자열을 가지고, 이녀석 사용자에게 보여줄 메세지 입니다.
+        // 확인 --> true, 취소 --> false 반환 합니다.
+        function inputData(){
+            let name = prompt("이름  = ", "홍길동");
+            let age = prompt("나이 = ", "22");
+            alert(name + "님의 내년 나이는 " + (age -1) + " 이면 좋겠죠?");
+        }
+    </script>
+</head>
+<body>
+    <a href="#" onclick="inputData()">입력하기</a>
+</body>
+</html>
